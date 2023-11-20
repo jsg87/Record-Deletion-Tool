@@ -1,7 +1,7 @@
 {
-  "id": "cafd90e7-34f2-4ff9-ae7e-ae1210bc1841",
+  "id": "6322e91c-49ff-4614-99e2-d730af9ccea2",
   "name": "Record-Deletion-Tool",
-  "publisher": "Waldemar Brakowski",
+  "publisher": "Jaideep Sengupta",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -10,18 +10,23 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [
-  ],
+  "dependencies": [],
   "screenshots": [],
-  "platform": "20.0.0.0",
-  "application": "20.0.0.0",
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
   "idRanges": [
     {
       "from": 50000,
-      "to": 50099
+      "to": 50149
     }
   ],
-  "contextSensitiveHelpUrl": "https://Record-Deletion-Tool.com/help/",
-  "runtime": "9.0",
-  "target": "Cloud"
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }

@@ -1,6 +1,16 @@
 codeunit 50000 "Record Deletion Mgt."
 {
-    Permissions = TableData "17" = IMD, Tabledata "36" = IMD, Tabledata "37" = IMD, Tabledata "38" = IMD, Tabledata "39" = IMD, Tabledata "81" = IMD, Tabledata "21" = IMD, Tabledata "25" = IMD, Tabledata "32" = IMD, Tabledata "110" = IMD, TableData "111" = IMD, TableData "112" = IMD, TableData "113" = IMD, TableData "114" = IMD, TableData "115" = IMD, TableData "120" = IMD, Tabledata "121" = IMD, Tabledata "122" = IMD, Tabledata "123" = IMD, Tabledata "124" = IMD, Tabledata "125" = IMD, Tabledata "169" = IMD, Tabledata "379" = IMD, Tabledata "380" = IMD, Tabledata "271" = IMD, Tabledata "5802" = IMD, tabledata "6650" = IMD, tabledata "6660" = IMD;
+    Permissions = TableData "G/L Entry" = IMD, Tabledata "Sales Header" = IMD, Tabledata "Sales Line" = IMD,
+    Tabledata "Purchase Header" = IMD, Tabledata "Purchase Line" = IMD, Tabledata "Gen. Journal Line" = IMD,
+    Tabledata "Cust. Ledger Entry" = IMD, Tabledata "Vendor Ledger Entry" = IMD, Tabledata "Item Ledger Entry" = IMD,
+    Tabledata "Sales Shipment Header" = IMD, TableData "Sales Shipment Line" = IMD, TableData "Sales Invoice Header" = IMD,
+    TableData "Sales Invoice Line" = IMD, TableData "Sales Cr.Memo Header" = IMD, TableData "Sales Cr.Memo Line" = IMD,
+    TableData "Purch. Rcpt. Header" = IMD, Tabledata "Purch. Rcpt. Line" = IMD, Tabledata "Purch. Inv. Header" = IMD,
+    Tabledata "Purch. Inv. Line" = IMD, Tabledata "Purch. Cr. Memo Hdr." = IMD, Tabledata "Purch. Cr. Memo Line" = IMD,
+    Tabledata "Job Ledger Entry" = IMD, Tabledata "Detailed Cust. Ledg. Entry" = IMD, Tabledata "Detailed Vendor Ledg. Entry" = IMD,
+    Tabledata "Bank Account Ledger Entry" = IMD, Tabledata "Value Entry" = IMD, tabledata "Return Shipment Header" = IMD,
+    tabledata "Return Receipt Header" = IMD, tabledata "Return Shipment Line" = IMD, tabledata "Return Receipt Line" = IMD,
+    tabledata "G/L - Item Ledger Relation" = IMD, tabledata "G/L Register" = IMD, tabledata "Item Register" = IMD;
     procedure InsertUpdateTables();
     var
         RecordDeletion: Record "Record Deletion";
