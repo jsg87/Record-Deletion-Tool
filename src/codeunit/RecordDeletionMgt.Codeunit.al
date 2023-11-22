@@ -10,7 +10,14 @@ codeunit 50000 "Record Deletion Mgt."
     Tabledata "Job Ledger Entry" = IMD, Tabledata "Detailed Cust. Ledg. Entry" = IMD, Tabledata "Detailed Vendor Ledg. Entry" = IMD,
     Tabledata "Bank Account Ledger Entry" = IMD, Tabledata "Value Entry" = IMD, tabledata "Return Shipment Header" = IMD,
     tabledata "Return Receipt Header" = IMD, tabledata "Return Shipment Line" = IMD, tabledata "Return Receipt Line" = IMD,
-    tabledata "G/L - Item Ledger Relation" = IMD, tabledata "G/L Register" = IMD, tabledata "Item Register" = IMD;
+    tabledata "G/L - Item Ledger Relation" = IMD, tabledata "G/L Register" = IMD, tabledata "Item Register" = IMD,
+    tabledata "G/L Entry - VAT Entry Link" = IMD, tabledata "VAT Entry" = IMD, tabledata "Check Ledger Entry" = IMD,
+    tabledata "Bank Acc. Reconciliation" = IMD, tabledata "Bank Acc. Reconciliation Line" = IMD, tabledata "Bank Account Statement" = IMD,
+    tabledata "Bank Account Statement Line" = IMD, tabledata "Posted Approval Entry" = IMD, tabledata "Error Message Register" = IMD,
+    tabledata "Error Message" = IMD, tabledata "FA Ledger Entry" = IMD, tabledata "FA Register" = IMD,
+    tabledata "Credit Transfer Register" = IMD, tabledata "Change Log Entry" = IMD, tabledata "Approval Entry" = IMD,
+    tabledata "Posted Approval Comment Line" = IMD, tabledata "Dimension Set Entry" = IMD, tabledata "Dimension Set Tree Node" = IMD,
+    tabledata "Payment Jnl. Export Error Text" = IMD, tabledata "Payment Matching Details" = IMD;
     procedure InsertUpdateTables();
     var
         RecordDeletion: Record "Record Deletion";
@@ -142,7 +149,7 @@ codeunit 50000 "Record Deletion Mgt."
         SetSuggestedTable(Database::"Interaction Log Entry");
         SetSuggestedTable(Database::"Internal Movement Header");
         SetSuggestedTable(Database::"Internal Movement Line");
-        SetSuggestedTable(Database::"Intrastat Jnl. Line");
+        //SetSuggestedTable(Database::"Intrastat Jnl. Line");
         SetSuggestedTable(Database::"Inventory Adjmt. Entry (Order)");
         SetSuggestedTable(Database::"Inventory Period Entry");
         SetSuggestedTable(Database::"Inventory Report Entry");
