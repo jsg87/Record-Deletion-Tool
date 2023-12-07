@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":50000,"Kind":11,"Name":"Record Deletion Mgt.","Namespace":""}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50002,"Kind":10,"Name":"Book Customer","Namespace":""},{"Kind":106,"Name":"RequestOptionsPage","Namespace":""},{"Id":50000,"Kind":11,"Name":"Record Deletion Mgt.","Namespace":""},{"Id":50000,"Kind":13,"Name":"Delete Customer","Namespace":""}],"Removed":[]}

@@ -17,7 +17,7 @@ codeunit 50000 "Record Deletion Mgt."
     tabledata "Error Message" = IMD, tabledata "FA Ledger Entry" = IMD, tabledata "FA Register" = IMD,
     tabledata "Credit Transfer Register" = IMD, tabledata "Change Log Entry" = IMD, tabledata "Approval Entry" = IMD,
     tabledata "Posted Approval Comment Line" = IMD, tabledata "Dimension Set Entry" = IMD, tabledata "Dimension Set Tree Node" = IMD,
-    tabledata "Payment Jnl. Export Error Text" = IMD, tabledata "Payment Matching Details" = IMD;
+    tabledata "Payment Jnl. Export Error Text" = IMD, tabledata "Payment Matching Details" = IMD, tabledata "Cancelled Document" = IMD;
     procedure InsertUpdateTables();
     var
         RecordDeletion: Record "Record Deletion";
